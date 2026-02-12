@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# 📰 Portal Notícias Agora
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bem-vindo ao repositório do **Portal Notícias Agora**. Este é um aplicativo de notícias desenvolvido com **React Native** e **Expo**, focado em oferecer uma interface limpa, responsiva e moderna para leitura de artigos esportivos e gerais.
 
-## Get started
+## 📸 Demonstração
 
-1. Install dependencies
+<p align="center">
+  <img src="assets/images/preview.png" alt="Demonstração do App" width="100%">
+</p>
 
-   ```bash
-   npm install
-   ```
+## 🚀 Funcionalidades
 
-2. Start the app
+* **Destaque Principal:** Área dedicada à notícia mais relevante do momento com destaque visual.
+* **Feed em Grid Responsivo:** Layout inteligente que organiza os cards de notícias.
+    * *Web/Desktop:* Exibição em grade (3 colunas) para melhor aproveitamento de tela.
+    * *Mobile:* Adaptação fluida para telas menores.
+* **Navegação Fluida:** Utilização do `Expo Router` para gerenciamento de telas.
+* **Design Moderno:** Estilização personalizada (StyleSheet) com paleta de cores consistente (Verde/Branco/Preto).
 
-   ```bash
-   npx expo start
-   ```
+## 🛠 Tecnologias Utilizadas
 
-In the output, you'll find options to open the app in a
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* **[React Native](https://reactnative.dev/):** Framework principal.
+* **[Expo](https://expo.dev/):** Plataforma para facilitar o desenvolvimento e build.
+* **[Expo Router](https://docs.expo.dev/router/introduction/):** Para navegação baseada em arquivos.
+* **TypeScript/JavaScript:** Linguagem de desenvolvimento.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📂 Estrutura de Pastas
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+📦 Portal-Noticias
+ ┣ 📂 .vscode/             # Configurações do editor VS Code
+ ┣ 📂 app/                 # 🚀 Telas e rotas do App (Expo Router)
+ ┃ ┗ 📄 index.tsx          # Tela principal (Home)
+ ┣ 📂 assets/              # 🎨 Arquivos estáticos
+ ┃ ┗ 📂 images/            # Banco de imagens (Notícias, Logo)
+ ┃ ┃ ┣ 🖼️ logo.png
+ ┃ ┃ ┣ 🖼️ noticia1.png
+ ┃ ┃ ┗ 🖼️ ...
+ ┣ 📂 node_modules/        # 📦 Dependências instaladas
+ ┣ 📜 .gitignore           # Arquivos ignorados pelo Git
+ ┣ ⚙️ app.json             # Configuração global do Expo
+ ┣ 🛠️ eslint.config.js     # Padronização de código
+ ┣ 📦 package.json         # Gerenciamento de bibliotecas
+ ┣ 📘 tsconfig.json        # Configuração do TypeScript
+ ┗ 📝 README.md            # Documentação do projeto
