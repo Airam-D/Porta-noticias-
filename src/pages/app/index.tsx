@@ -15,7 +15,7 @@ export default function Index() {
       {/* header */}
       <View style={styles.header}>
         <Image
-          source={require('../assets/images/logo.png')}
+          source={require('../../assets/images/logo.png')}
           style={styles.logoImg}
         />
         <Text style={{ color: 'white', fontWeight: 'bold' }}>Início</Text>
@@ -48,7 +48,7 @@ export default function Index() {
           {/* Card 1 */}
           <View style={styles.noticiaRecente}>
             <Image
-              source={require('../assets/images/noticia1.png')}
+              source={require('../../assets/images/noticia1.png')}
               style={styles.imagemNoticia}
             />
             <Text style={styles.tituloNoticia} >Speed quebra recorde da NBA e "assusta" Kevin Durant</Text>
@@ -65,7 +65,7 @@ export default function Index() {
           {/* Card 2 */}
           <View style={styles.noticiaRecente}>
             <Image
-              source={require('../assets/images/noticia2.png')}
+              source={require('../../assets/images/noticia2.png')}
               style={styles.imagemNoticia}
             />
             <Text style={styles.tituloNoticia} >
@@ -84,7 +84,7 @@ export default function Index() {
           {/* Card 3 */}
           <View style={styles.noticiaRecente}>
             <Image
-              source={require('../assets/images/noticia3.png')}
+              source={require('../../assets/images/noticia3.png')}
               style={styles.imagemNoticia}
             />
             <Text style={styles.tituloNoticia} >
@@ -104,7 +104,7 @@ export default function Index() {
           {/* Card 4 */}
           <View style={styles.noticiaRecente}>
             <Image
-              source={require('../assets/images/noticia4.png')}
+              source={require('../../assets/images/noticia4.png')}
               style={styles.imagemNoticia}
             />
             <Text style={styles.tituloNoticia} >
@@ -123,7 +123,7 @@ export default function Index() {
           {/* Card 5 */}
           <View style={styles.noticiaRecente}>
             <Image
-              source={require('../assets/images/noticia5.png')}
+              source={require('../../assets/images/noticia5.png')}
               style={styles.imagemNoticia}
             />
             <Text style={styles.tituloNoticia} >
@@ -142,7 +142,7 @@ export default function Index() {
           {/* Card 6 */}
           <View style={styles.noticiaRecente}>
             <Image
-              source={require('../assets/images/noticia6.png')}
+              source={require('../../assets/images/noticia6.png')}
               style={styles.imagemNoticia}
             />
             <Text style={styles.tituloNoticia} >
